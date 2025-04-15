@@ -288,10 +288,6 @@ line(526,278,668,300);//linea divisoria 1
   vertex(608,142);
   endShape(CLOSE);
 
-fill(0);
-textSize(30);// guia coordenadas
-text( mouseX + " - " + mouseY, mouseX, mouseY);// guia coordenadas
-
   }
   
   
