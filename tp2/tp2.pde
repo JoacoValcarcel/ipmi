@@ -45,11 +45,11 @@ void draw() {
   } else {
     pagina = 4;
   }
-  
+
 
   vel = 0.1;
-
-  if (pagina == 0 && tamFont < 30) {
+  //animaciones de texto
+  if (pagina == 0 && tamFont < 25) {
     tamFont += vel;
   } else if (pagina == 1 && X < width/2) {
     X += 3;
@@ -72,22 +72,32 @@ void draw() {
 
   if (pagina == 0) {
     image(img1, 0, 0);
-    fill(0);
+    fill(0, 120);
+    rect(30, 30, width-50, height-50);
+    fill(255);
     text(texto1, 320, 240);
   } else if (pagina == 1) {
     image(img2, 0, 0);
+    fill(0, 120);
+    rect(30, 30, width-50, height-50);
     fill(255);
     text(texto2, X, height/2);
   } else if (pagina == 2) {
     image(img3, 0, 0);
+    fill(0, 120);
+    rect(30, 30, width-50, height-50);
     fill(255);
     text(texto3, 320, textoY);
   } else if (pagina == 3) {
     image(img4, 0, 0);
+    fill(0, 120);
+    rect(30, 30, width-50, height-50);
     fill(255);
     text(texto4, textoX3, height/2);
   } else if (pagina == 4) {
     image(img5, 0, 0);
+    fill(0, 120);
+    rect(30, 30, width-50, height-50);
     fill(255);
     text(texto5, 320, textoY4);
   }
