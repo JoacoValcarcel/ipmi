@@ -37,7 +37,6 @@ void draw() {
   if (mouseX>width/2) {
     rotation = mouseX*vel;
     zoom = map(mouseY, 0, width, 5, 35);
-    zoom = constrain(zoom, 5, 35);
   }
 }
 void keyPressed() {
