@@ -4,7 +4,6 @@
 PImage img1;
 int cant = 9, tam;
 int quad1 = 4, quad2 =5;
-int ColorN = 0, ColorB = 255;
 int Negro = 0, Blanco = 255;
 float rotation = 0, vel = 0.3, zoom = 12;
 float numero1 = 0, numero2 = 0, numero3 = 0;
